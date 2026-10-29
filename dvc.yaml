@@ -1,0 +1,7 @@
+﻿stages:
+  process_data:
+    cmd: python process.py
+    deps:
+      - dvc_homework/raw_data.csv
+    outs:
+      - metrics.txt
